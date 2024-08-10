@@ -451,10 +451,17 @@ footer {
     #header > h2 {
         font-size: 1rem;
         padding-right: 40px;
+        position: absolute;
+        color: transparent;
     }
 
     #nav {
         padding-right: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 10px;
+        row-gap: 10px;
     }
 
     .nav-link {
@@ -463,6 +470,7 @@ footer {
         border-radius: 5px;
         padding: 10px;
         background-color: #453164;
+        text-align: center;
     }
 
     #skills {
