@@ -163,6 +163,7 @@ hr {
 #skill-section > h2 {
     margin: 50px;
     text-align: center;
+    width: 300px;
 }
 
 #skill-section > h2 > span {
