@@ -89,7 +89,7 @@ body {
     color: #453164;
 }
 
-.hero span {
+.hero > h1 > span {
     color: var(--text-color-one);
     font-family: 'Dancing Script', cursive;
     font-weight: 900;
@@ -99,6 +99,10 @@ body {
 
 h1 {
     font-size: 3rem;
+}
+
+.hero > p {
+    font-family: sans-serif;
 }
 
 #section-three {
@@ -265,6 +269,7 @@ hr {
 .project-name {
     height: 100%;
     color: white;
+    font-family: sans-serif;
     font-weight: 700;
     font-size: 1.2rem;
 }
@@ -312,6 +317,7 @@ hr {
 }
 
 .contact-links {
+    font-family: sans-serif;
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -409,6 +415,7 @@ footer {
     text-align: center;
     background-color: var(--color-one);
     height: 150px;
+    font-family: sans-serif;
 }
 
 #footer-column {
@@ -419,6 +426,14 @@ footer {
     justify-content: center;
     text-align: center;
     color: var(--text-color-one);
+}
+
+#footer-email > p {
+    font-weight: 900;
+}
+
+#footer-email > p > span {
+    font-weight: 100;
 }
 
 @media (max-width: 1024px) {
