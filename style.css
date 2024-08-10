@@ -514,6 +514,11 @@ footer {
         margin-bottom: 8px;
     }
 
+    #contact-statement {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
     #contact-set {
         display: grid;
         grid-template-columns: 1fr;
@@ -521,5 +526,12 @@ footer {
         row-gap: 5px;
         align-items: center;
         justify-content: space-evenly;
+    }
+
+    .contact-links {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        justify-content: flex-start;
     }
 }
