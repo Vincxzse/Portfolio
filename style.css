@@ -441,13 +441,13 @@ footer {
 
 @media (max-width: 720px) {
     html {
-        scroll-padding: 150px;
+        scroll-padding: 130px;
     }
-    
+
     #header {
         display: flex;
         flex-direction: column;
-        row-gap: 20px;
+        row-gap: 10px;
         justify-content: center;
         align-items: center;
     }
