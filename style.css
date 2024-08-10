@@ -440,6 +440,10 @@ footer {
 }
 
 @media (max-width: 720px) {
+    html {
+        scroll-padding: 130px;
+    }
+    
     #header {
         display: flex;
         flex-direction: column;
